@@ -1,4 +1,4 @@
-sudo apt-get updates
-sudo aptitude updates
-sudo apt-get dist-upgrades
-sudo aptitude dist-upgrades
+sudo apt-get update
+sudo aptitude update
+sudo apt-get dist-upgrade
+sudo aptitude dist-upgrade
