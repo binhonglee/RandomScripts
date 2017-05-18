@@ -6,4 +6,3 @@ sudo apt-get install unzip
 sudo unzip zip
 sudo rm zip
 pushd -0
-sudo find /etc/openvpn/*.ovpn > vpn_list
