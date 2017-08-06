@@ -6,6 +6,7 @@
 4.  [InstallGCC.sh](#installgccsh)
 5.  [InstallGCC-64bit.sh](#installgcc-64bitsh)
 6.  [updates.sh](#updatessh)
+7.  [checkip](#checkip)
 
 ## [Connect_US_TCP.sh](https://github.com/binhonglee/RandomScripts/blob/master/Connect_US_TCP.sh)
 
@@ -30,3 +31,7 @@ Same as above but for 64-bit machines. (Again, avoid if you can.)
 ## [updates.sh](https://github.com/binhonglee/RandomScripts/blob/master/updates.sh)
 
 Just update with both apt-get and aptitude.
+
+## [checkip](https://github.com/binhonglee/RandomScripts/blob/master/checkip)
+
+Basic IP check through checkip.dyndns.org.
