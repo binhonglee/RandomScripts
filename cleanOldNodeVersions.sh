@@ -4,7 +4,12 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 
 input="tempNodeVer.txt"
-nvm ls | sed -r "s/\x1B\[[0-9;]*[JKmsu]//g" > $input
+if [ $(uname) == "Darwin" ]; then
+	command="gsed"
+else
+	command="sed"
+fi
+nvm ls | $command -r "s/\x1B\[[0-9;]*[JKmsu]//g" > $input
 
 end="no"
 
