@@ -10,7 +10,7 @@ else
 	sudo apt-get -y dist-upgrade
 	sudo aptitude -y dist-upgrade
 	source ~/.zshrc
-	sdk selfupdate
+	sdk update
 	sdk upgrade
 fi
 

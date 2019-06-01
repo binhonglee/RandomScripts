@@ -24,4 +24,6 @@ while read -r line && [ "$end" = "no" ]; do
 	fi
 done<$input
 
+nvm use node
+
 rm $input
